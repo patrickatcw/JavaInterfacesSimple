@@ -11,6 +11,15 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //step 7 cteating an instance of the desktop class
+        ITelephone patricksPhone;
+        patricksPhone = new Deskphone(123456);
+        patricksPhone.powerOn();
+        patricksPhone.callPhone(123456);
+        patricksPhone.answer();
+
+        //step 8 create mobilephone class
+
     }
 
 
