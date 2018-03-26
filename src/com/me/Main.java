@@ -20,7 +20,24 @@ public class Main {
 
         //step 8 create mobilephone class
 
+        //step 12 create an instance
+        patricksPhone = new Mobilephone(24565);
+
+        //step 13 call methods
+        patricksPhone.powerOn();
+        patricksPhone.callPhone(2456);
+        patricksPhone.answer();
+
+        //step 14 run this
+
     }
-
-
 }
+
+/*
+results
+No action taken, desk phone does not have a power button
+Ring ring
+Answering the desk phone
+Mobile phone powered up
+Mobile phone not on or number different
+*/
